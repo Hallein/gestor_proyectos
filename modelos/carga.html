@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>asd</title>
+</head>
+<body>
+	
+	<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+	<script>
+		$(() => {
+			const producto = getCristales();
+			const cristales = producto['Cristales'];
+			$.each(cristales, (index, cristal) => {
+
+				const data = {
+					nombre				: cristal.nombre,
+					descripcion			: '',
+					valor_metro_cuadrado: cristal.valor_metro_cuadrado,
+					espesor				: cristal.espesor,
+					dibujo				: cristal.dibujo,
+					tipo_cristal		: cristal.tipo_cristal
+				};
+
+				$.post( "http://localhost/vidrieria_api/public/api/cristal", data, function( respuesta ) {
+					console.log(respuesta);
+				});
+
+			});
+		});
+
+		function getCristales(){
+			const cristales = {
+				"Cristales":
+				[
+			        {
+						"id"					: "1",
+						"nombre" 				: "Incoloro 2mm",
+						"tipo_cristal"			: "Incoloro",
+						"espesor"				: "2mm",
+						"valor_metro_cuadrado"	: "7000",
+						"dibujo"				: ""
+						},{
+						"id"					: "2",
+						"nombre" 				: "Incoloro 3mm",
+						"tipo_cristal"			: "Incoloro",
+						"espesor"				: "3mm",
+						"valor_metro_cuadrado"	: "9000",
+						"dibujo"				: ""
+						},{
+						"id"					: "3",
+						"nombre" 				: "Incoloro 4mm",
+						"tipo_cristal"			: "Incoloro",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "11000",
+						"dibujo"				: ""
+						},{
+						"id"					: "4",
+						"nombre" 				: "Incoloro 5mm",
+						"tipo_cristal"			: "Incoloro",
+						"espesor"				: "5mm",
+						"valor_metro_cuadrado"	: "13000",
+						"dibujo"				: ""
+						},{
+						"id"					: "5",
+						"nombre" 				: "Incoloro 6mm",
+						"tipo_cristal"			: "Incoloro",
+						"espesor"				: "6mm",
+						"valor_metro_cuadrado"	: "16800",
+						"dibujo"				: ""
+						},{
+						"id"					: "6",
+						"nombre" 				: "Incoloro 8mm",
+						"tipo_cristal"			: "Incoloro",
+						"espesor"				: "8mm",
+						"valor_metro_cuadrado"	: "23500",
+						"dibujo"				: ""
+						},{
+						"id"					: "7",
+						"nombre" 				: "Incoloro 10mm",
+						"tipo_cristal"			: "Incoloro",
+						"espesor"				: "10mm",
+						"valor_metro_cuadrado"	: "26000",
+						"dibujo"				: ""
+						},{
+						"id"					: "8",
+						"nombre" 				: "Bronce 3mm",
+						"tipo_cristal"			: "Bronce",
+						"espesor"				: "3mm",
+						"valor_metro_cuadrado"	: "9000",
+						"dibujo"				: ""
+						},{
+						"id"					: "9",
+						"nombre" 				: "Bronce 4mm",
+						"tipo_cristal"			: "Bronce",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "11500",
+						"dibujo"				: ""
+						},{
+						"id"					: "10",
+						"nombre" 				: "Bronce 5mm",
+						"tipo_cristal"			: "Bronce",
+						"espesor"				: "5mm",
+						"valor_metro_cuadrado"	: "15000",
+						"dibujo"				: ""
+						},{
+						"id"					: "11",
+						"nombre" 				: "Bronce 6mm",
+						"tipo_cristal"			: "Bronce",
+						"espesor"				: "6mm",
+						"valor_metro_cuadrado"	: "19000",
+						"dibujo"				: ""
+						},{
+						"id"					: "12",
+						"nombre" 				: "Bronce 8mm",
+						"tipo_cristal"			: "Bronce",
+						"espesor"				: "8mm",
+						"valor_metro_cuadrado"	: "25000",
+						"dibujo"				: ""
+						},{
+						"id"					: "13",
+						"nombre" 				: "Bronce 10mm",
+						"tipo_cristal"			: "Bronce",
+						"espesor"				: "10mm",
+						"valor_metro_cuadrado"	: "28500",
+						"dibujo"				: ""
+						},{
+						"id"					: "14",
+						"nombre" 				: "Espejo 3mm",
+						"tipo_cristal"			: "Espejo",
+						"espesor"				: "3mm",
+						"valor_metro_cuadrado"	: "15000",
+						"dibujo"				: ""
+						},{
+						"id"					: "15",
+						"nombre" 				: "Espejo 4mm",
+						"tipo_cristal"			: "Espejo",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "19500",
+						"dibujo"				: ""
+						},{
+						"id"					: "16",
+						"nombre" 				: "Catedral incoloro 4mm Trebol",
+						"tipo_cristal"			: "Catedral incoloro",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "11500",
+						"dibujo"				: "Trebol"
+						},{
+						"id"					: "17",
+						"nombre" 				: "Catedral incoloro 4mm Ártico",
+						"tipo_cristal"			: "Catedral incoloro",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "11500",
+						"dibujo"				: "Ártico"
+						},{
+						"id"					: "18",
+						"nombre" 				: "Catedral incoloro 4mm Semilla",
+						"tipo_cristal"			: "Catedral incoloro",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "11500",
+						"dibujo"				: "Semilla"
+						},{
+						"id"					: "19",
+						"nombre" 				: "Catedral incoloro 4mm Moroco",
+						"tipo_cristal"			: "Catedral incoloro",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "11500",
+						"dibujo"				: "Moroco"
+						},{
+						"id"					: "20",
+						"nombre" 				: "Catedral color 4mm Trebol amarillo",
+						"tipo_cristal"			: "Catedral color",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "16500",
+						"dibujo"				: "Trebol amarillo"
+						},{
+						"id"					: "21",
+						"nombre" 				: "Catedral color 4mm Trebol verde",
+						"tipo_cristal"			: "Catedral color",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "16500",
+						"dibujo"				: "Trebol verde"
+						},{
+						"id"					: "22",
+						"nombre" 				: "Catedral color 4mm Trebol vino",
+						"tipo_cristal"			: "Catedral color",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "16500",
+						"dibujo"				: "Trebol vino"
+						},{
+						"id"					: "23",
+						"nombre" 				: "Catedral color 4mm Trebol azul",
+						"tipo_cristal"			: "Catedral color",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "16500",
+						"dibujo"				: "Trebol azul"
+						},{
+						"id"					: "24",
+						"nombre" 				: "Catedral color 4mm Ártico amarillo",
+						"tipo_cristal"			: "Catedral color",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "16500",
+						"dibujo"				: "Ártico amarillo"
+						},{
+						"id"					: "25",
+						"nombre" 				: "Catedral color 4mm Ártico verde",
+						"tipo_cristal"			: "Catedral color",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "16500",
+						"dibujo"				: "Ártico verde"
+						},{
+						"id"					: "26",
+						"nombre" 				: "Catedral color 4mm Ártico vino",
+						"tipo_cristal"			: "Catedral color",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "16500",
+						"dibujo"				: "Ártico vino"
+						},{
+						"id"					: "27",
+						"nombre" 				: "Catedral color 4mm Ártico azul",
+						"tipo_cristal"			: "Catedral color",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "16500",
+						"dibujo"				: "Ártico azul"
+						},{
+						"id"					: "28",
+						"nombre" 				: "Catedral color 4mm Semilla bronce",
+						"tipo_cristal"			: "Catedral color",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "16500",
+						"dibujo"				: "Semilla bronce"
+						},{
+						"id"					: "29",
+						"nombre" 				: "Stop sol 4mm",
+						"tipo_cristal"			: "Stop sol",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "18500",
+						"dibujo"				: ""
+						},{
+						"id"					: "30",
+						"nombre" 				: "Stop sol 5mm",
+						"tipo_cristal"			: "Stop sol",
+						"espesor"				: "5mm",
+						"valor_metro_cuadrado"	: "20000",
+						"dibujo"				: ""
+						},{
+						"id"					: "31",
+						"nombre" 				: "Acrílico 3mm",
+						"tipo_cristal"			: "Acrílico",
+						"espesor"				: "3mm",
+						"valor_metro_cuadrado"	: "38500",
+						"dibujo"				: ""
+						},{
+						"id"					: "32",
+						"nombre" 				: "Acrílico 4mm",
+						"tipo_cristal"			: "Acrílico",
+						"espesor"				: "4mm",
+						"valor_metro_cuadrado"	: "43000",
+						"dibujo"				: ""
+						},{
+						"id"					: "33",
+						"nombre" 				: "Laminado 6mm",
+						"tipo_cristal"			: "Laminado",
+						"espesor"				: "6mm",
+						"valor_metro_cuadrado"	: "49000",
+						"dibujo"				: ""
+						},{
+						"id"					: "34",
+						"nombre" 				: "Laminado 8mm",
+						"tipo_cristal"			: "Laminado",
+						"espesor"				: "8mm",
+						"valor_metro_cuadrado"	: "65000",
+						"dibujo"				: ""
+						},{
+						"id"					: "35",
+						"nombre" 				: "Laminado 10mm",
+						"tipo_cristal"			: "Laminado",
+						"espesor"				: "10mm",
+						"valor_metro_cuadrado"	: "80000",
+						"dibujo"				: ""
+					}
+				]
+			};
+			return cristales;
+		}
+	</script>
+</body>
+</html>

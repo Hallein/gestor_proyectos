@@ -1,4 +1,5 @@
 <?php
 
-	require 'proyecto/proyecto.routes.php';
-	require 'adjunto/adjunto.routes.php';
+	require 'cristal/cristal.routes.php';
+	require 'aluminio/aluminio.routes.php';
+	require 'venta/venta.routes.php';

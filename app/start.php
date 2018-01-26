@@ -6,9 +6,9 @@ require '../../vendor/autoload.php';	// sistema/public/api
 $config['displayErrorDetails'] = true;
 
 $config['db']['host']   = "localhost";
-$config['db']['user']   = "root";
-$config['db']['pass']   = "";
-$config['db']['dbname'] = "impresora3d";
+$config['db']['user']   = "root";		//vidrier3_pretzel
+$config['db']['pass']   = "";			//sagiribestwaifu
+$config['db']['dbname'] = "calculadora";//vidrier3_calculadora
 
 //Instancia de Slim
 $app = new Slim\App(["settings" => $config]);
