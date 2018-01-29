@@ -15,7 +15,6 @@
 			const producto = getCristales();
 			const cristales = producto['Cristales'];
 			$.each(cristales, (index, cristal) => {
-
 				const data = {
 					nombre				: cristal.nombre,
 					descripcion			: '',
@@ -25,7 +24,7 @@
 					tipo_cristal		: cristal.tipo_cristal
 				};
 
-				$.post( "http://localhost/vidrieria_api/public/api/cristal", data, function( respuesta ) {
+				$.post( "http://vidrieriasanlorenzo.cl/public/api/cristal", data ,function( respuesta ) {
 					console.log(respuesta);
 				});
 

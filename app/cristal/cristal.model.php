@@ -56,16 +56,21 @@ class Cristal{
 	}
 
 	public function store($data){
+		$nombre 				= filter_var($data['nombre'], FILTER_SANITIZE_STRING);
+		$descripcion 			= filter_var($data['descripcion'], FILTER_SANITIZE_STRING);
+		$valor_metro_cuadrado 	= intval(filter_var($data['valor_metro_cuadrado'], FILTER_SANITIZE_STRING));
+		$espesor 				= intval(filter_var($data['espesor'], FILTER_SANITIZE_STRING));
+
 		$datos = array();
 		$query = $this->db->prepare(' 	
 			INSERT INTO PRODUCTO ( PNOMBRE, PDESCRIPCION, PPRECIOM2, PESPESOR )
 			VALUES 	( :nombre, :descripcion, :valor_metro_cuadrado, :espesor ) 
 		');
 		
-		$query -> bindParam(':nombre', 					$data['nombre']);
-		$query -> bindParam(':descripcion', 			$data['descripcion']);
-		$query -> bindParam(':valor_metro_cuadrado', 	$data['valor_metro_cuadrado']);
-		$query -> bindParam(':espesor', 				$data['espesor']);
+		$query -> bindParam(':nombre', 					$nombre);
+		$query -> bindParam(':descripcion', 			$descripcion);
+		$query -> bindParam(':valor_metro_cuadrado', 	$valor_metro_cuadrado);
+		$query -> bindParam(':espesor', 				$espesor);
 
 		if($query -> execute()){			
 			$id = $this->db->lastInsertId();
@@ -77,14 +82,17 @@ class Cristal{
 	}
 
 	private function storeCristal($id, $data){
+		$dibujo 		= filter_var($data['dibujo'], FILTER_SANITIZE_STRING);
+		$tipo_cristal	= filter_var($data['tipo_cristal'], FILTER_SANITIZE_STRING);
+
 		$query = $this->db->prepare(' 	
 			INSERT INTO CRISTAL ( PID, CDIBUJO, CTIPO )
 			VALUES 	( :id, :dibujo, :tipo_cristal ) 
 		');
 		
 		$query -> bindParam(':id', 				$id);
-		$query -> bindParam(':dibujo', 			$data['dibujo']);
-		$query -> bindParam(':tipo_cristal', 	$data['tipo_cristal']);
+		$query -> bindParam(':dibujo', 			$dibujo);
+		$query -> bindParam(':tipo_cristal', 	$tipo_cristal);
 
 		if($query -> execute()){
 			return array(
@@ -97,6 +105,11 @@ class Cristal{
 	}
 
 	public function update($id, $data){
+		$nombre 				= filter_var($data['nombre'], FILTER_SANITIZE_STRING);
+		$descripcion 			= filter_var($data['descripcion'], FILTER_SANITIZE_STRING);
+		$valor_metro_cuadrado 	= intval(filter_var($data['valor_metro_cuadrado'], FILTER_SANITIZE_STRING));
+		$espesor 				= intval(filter_var($data['espesor'], FILTER_SANITIZE_STRING));
+
 		$datos = array();
 		$query = $this->db->prepare('	UPDATE 	PRODUCTO 
 										SET 	PNOMBRE 		= :nombre,
@@ -105,10 +118,10 @@ class Cristal{
 												PESPESOR 		= :espesor
 										WHERE 	PID 			= :id');
 
-		$query -> bindParam(':nombre', 					$data['nombre']);
-		$query -> bindParam(':descripcion', 			$data['descripcion']);
-		$query -> bindParam(':valor_metro_cuadrado', 	$data['valor_metro_cuadrado']);
-		$query -> bindParam(':espesor', 				$data['espesor']);
+		$query -> bindParam(':nombre', 					$nombre);
+		$query -> bindParam(':descripcion', 			$descripcion);
+		$query -> bindParam(':valor_metro_cuadrado', 	$valor_metro_cuadrado);
+		$query -> bindParam(':espesor', 				$espesor);
 		$query -> bindParam(':id', 						$id);
 
 		if($query -> execute()){
@@ -119,14 +132,17 @@ class Cristal{
 	}
 
 	private function updateCristal($id, $data){
+		$dibujo 		= filter_var($data['dibujo'], FILTER_SANITIZE_STRING);
+		$tipo_cristal	= filter_var($data['tipo_cristal'], FILTER_SANITIZE_STRING);
+
 		$datos = array();
 		$query = $this->db->prepare('	UPDATE 	CRISTAL 
 										SET 	CDIBUJO = :dibujo,
 												CTIPO 	= :tipo_cristal,
 										WHERE 	PID 	= :id');
 
-		$query -> bindParam(':dibujo', 			$data['dibujo']);
-		$query -> bindParam(':tipo_cristal', 	$data['tipo_cristal']);
+		$query -> bindParam(':dibujo', 			$dibujo);
+		$query -> bindParam(':tipo_cristal', 	$tipo_cristal);
 		$query -> bindParam(':id', 				$id);
 
 		if($query -> execute()){

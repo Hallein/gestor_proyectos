@@ -1,0 +1,1474 @@
+{
+	"ventana_aluminio":
+	[
+        {
+			"id"					: "1",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "3mm",
+			"valor_metro_cuadrado"  : "35000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: ""
+			},{
+			"id"					: "2",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "37500",
+			"valor_minimo"			: "22000",
+			"dibujo"				: ""
+			},{
+			"id"					: "3",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Bronce",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "38000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: ""
+			},{
+			"id"					: "4",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Stop sol",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "50000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: ""
+			},{
+			"id"					: "5",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "38000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol"
+			},{
+			"id"					: "6",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "38000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico"
+			},{
+			"id"					: "7",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "38000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Semilla"
+			},{
+			"id"					: "8",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "38000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Moroco"
+			},{
+			"id"					: "9",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "42000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol amarillo"
+			},{
+			"id"					: "10",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "42000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol verde"
+			},{
+			"id"					: "11",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "42000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol vino"
+			},{
+			"id"					: "12",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "42000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol azul"
+			},{
+			"id"					: "13",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "42000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico amarillo"
+			},{
+			"id"					: "14",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "42000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico verde"
+			},{
+			"id"					: "15",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "42000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico vino"
+			},{
+			"id"					: "16",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "42000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico azul"
+			},{
+			"id"					: "17",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "42000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Semilla bronce"
+			},{
+			"id"					: "18",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "3mm",
+			"valor_metro_cuadrado"  : "37000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: ""
+			},{
+			"id"					: "19",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "39500",
+			"valor_minimo"			: "22000",
+			"dibujo"				: ""
+			},{
+			"id"					: "20",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Bronce",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "40000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: ""
+			},{
+			"id"					: "21",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Stop sol",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "52000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: ""
+			},{
+			"id"					: "22",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "40000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol"
+			},{
+			"id"					: "23",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "40000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico"
+			},{
+			"id"					: "24",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "40000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Semilla"
+			},{
+			"id"					: "25",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "40000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Moroco"
+			},{
+			"id"					: "26",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "45000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol amarillo"
+			},{
+			"id"					: "27",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "45000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol verde"
+			},{
+			"id"					: "28",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "45000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol vino"
+			},{
+			"id"					: "29",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "45000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol azul"
+			},{
+			"id"					: "30",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "45000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico amarillo"
+			},{
+			"id"					: "31",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "45000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico verde"
+			},{
+			"id"					: "32",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "45000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico vino"
+			},{
+			"id"					: "33",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "45000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico azul"
+			},{
+			"id"					: "34",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "45000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Semilla bronce"
+			},{
+			"id"					: "35",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "3mm",
+			"valor_metro_cuadrado"  : "40000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: ""
+			},{
+			"id"					: "36",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "42500",
+			"valor_minimo"			: "22000",
+			"dibujo"				: ""
+			},{
+			"id"					: "37",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Bronce",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "43000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: ""
+			},{
+			"id"					: "38",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Stop sol",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "55000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: ""
+			},{
+			"id"					: "39",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "43000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol"
+			},{
+			"id"					: "40",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "43000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico"
+			},{
+			"id"					: "41",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "43000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Semilla"
+			},{
+			"id"					: "42",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "43000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Moroco"
+			},{
+			"id"					: "43",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol amarillo"
+			},{
+			"id"					: "44",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol verde"
+			},{
+			"id"					: "45",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol vino"
+			},{
+			"id"					: "46",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol azul"
+			},{
+			"id"					: "47",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico amarillo"
+			},{
+			"id"					: "48",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico verde"
+			},{
+			"id"					: "49",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico vino"
+			},{
+			"id"					: "50",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico azul"
+			},{
+			"id"					: "51",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Semilla bronce"
+			},{
+			"id"					: "52",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "3mm",
+			"valor_metro_cuadrado"  : "40000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: ""
+			},{
+			"id"					: "53",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "42500",
+			"valor_minimo"			: "22000",
+			"dibujo"				: ""
+			},{
+			"id"					: "54",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Bronce",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "43000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: ""
+			},{
+			"id"					: "55",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Stop sol",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "55000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: ""
+			},{
+			"id"					: "56",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "43000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol"
+			},{
+			"id"					: "57",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "43000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico"
+			},{
+			"id"					: "58",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "43000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Semilla"
+			},{
+			"id"					: "59",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "43000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Moroco"
+			},{
+			"id"					: "60",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol amarillo"
+			},{
+			"id"					: "61",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol verde"
+			},{
+			"id"					: "62",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol vino"
+			},{
+			"id"					: "63",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Trebol azul"
+			},{
+			"id"					: "64",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico amarillo"
+			},{
+			"id"					: "65",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico verde"
+			},{
+			"id"					: "66",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico vino"
+			},{
+			"id"					: "67",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Ártico azul"
+			},{
+			"id"					: "68",
+			"tipo_linea"			: "L-5000",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "22000",
+			"dibujo"				: "Semilla bronce"
+			},{
+			"id"					: "69",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "43000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "70",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "5mm",
+			"valor_metro_cuadrado"  : "46000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "71",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Bronce",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "45000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "72",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Bronce",
+			"espesor"				: "5mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "73",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Stop sol",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "56000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "74",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Stop sol",
+			"espesor"				: "5mm",
+			"valor_metro_cuadrado"  : "60000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "75",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "45000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol"
+			},{
+			"id"					: "76",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "45000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico"
+			},{
+			"id"					: "77",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "45000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Semilla"
+			},{
+			"id"					: "78",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "45000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Moroco"
+			},{
+			"id"					: "79",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol amarillo"
+			},{
+			"id"					: "80",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol verde"
+			},{
+			"id"					: "81",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol vino"
+			},{
+			"id"					: "82",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol azul"
+			},{
+			"id"					: "83",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico amarillo"
+			},{
+			"id"					: "84",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico verde"
+			},{
+			"id"					: "85",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico vino"
+			},{
+			"id"					: "86",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico azul"
+			},{
+			"id"					: "87",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Mate",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Semilla bronce" 
+			},{ 
+			"id"					: "88",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "45000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "89",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "5mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "90",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Bronce",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "47000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "91",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Bronce",
+			"espesor"				: "5mm",
+			"valor_metro_cuadrado"  : "50000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "92",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Stop sol",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "58000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "93",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Stop sol",
+			"espesor"				: "5mm",
+			"valor_metro_cuadrado"  : "62000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "94",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "47000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol"
+			},{
+			"id"					: "95",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "47000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico"
+			},{
+			"id"					: "96",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "47000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Semilla"
+			},{
+			"id"					: "97",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "47000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Moroco"
+			},{
+			"id"					: "98",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol amarillo"
+			},{
+			"id"					: "99",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol verde"
+			},{
+			"id"					: "100",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol vino"
+			},{
+			"id"					: "101",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol azul"
+			},{
+			"id"					: "102",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico amarillo"
+			},{
+			"id"					: "103",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico verde"
+			},{
+			"id"					: "104",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico vino"
+			},{
+			"id"					: "105",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico azul"
+			},{
+			"id"					: "106",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Titaneo",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Semilla bronce"
+			},{
+			"id"					: "107",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "46000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "108",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "5mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "109",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Bronce",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "110",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Bronce",
+			"espesor"				: "5mm",
+			"valor_metro_cuadrado"  : "51000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "111",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Stop sol",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "59000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "112",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Stop sol",
+			"espesor"				: "5mm",
+			"valor_metro_cuadrado"  : "63000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "113",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol"
+			},{
+			"id"					: "114",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico"
+			},{
+			"id"					: "115",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Semilla"
+			},{
+			"id"					: "116",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Moroco"
+			},{
+			"id"					: "117",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol amarillo"
+			},{
+			"id"					: "118",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol verde"
+			},{
+			"id"					: "119",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol vino"
+			},{
+			"id"					: "120",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol azul"
+			},{
+			"id"					: "121",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico amarillo"
+			},{
+			"id"					: "122",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico verde"
+			},{
+			"id"					: "123",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico vino"
+			},{
+			"id"					: "124",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico azul"
+			},{
+			"id"					: "125",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Negro",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Semilla bronce"
+			},{
+			"id"					: "126",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "46000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "127",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "5mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "128",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Bronce",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "129",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Bronce",
+			"espesor"				: "5mm",
+			"valor_metro_cuadrado"  : "51000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "130",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Stop sol",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "59000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "131",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Stop sol",
+			"espesor"				: "5mm",
+			"valor_metro_cuadrado"  : "63000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "132",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol"
+			},{
+			"id"					: "133",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico"
+			},{
+			"id"					: "134",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Semilla"
+			},{
+			"id"					: "135",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Moroco"
+			},{
+			"id"					: "136",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol amarillo"
+			},{
+			"id"					: "137",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol verde"
+			},{
+			"id"					: "138",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol vino"
+			},{
+			"id"					: "139",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol azul"
+			},{
+			"id"					: "140",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico amarillo"
+			},{
+			"id"					: "141",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico verde"
+			},{
+			"id"					: "142",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico vino"
+			},{
+			"id"					: "143",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico azul"
+			},{
+			"id"					: "144",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Madera",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Semilla bronce"
+			},{ //BLANCOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+			"id"					: "145",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "48000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "146",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Incoloro",
+			"espesor"				: "5mm",
+			"valor_metro_cuadrado"  : "50000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "147",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Bronce",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "50000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "148",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Bronce",
+			"espesor"				: "5mm",
+			"valor_metro_cuadrado"  : "53000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "149",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Stop sol",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "61000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "150",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Stop sol",
+			"espesor"				: "5mm",
+			"valor_metro_cuadrado"  : "64000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: ""
+			},{
+			"id"					: "151",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol"
+			},{
+			"id"					: "152",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico"
+			},{
+			"id"					: "153",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Semilla"
+			},{
+			"id"					: "154",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Catedral incoloro",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "49000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Moroco"
+			},{
+			"id"					: "155",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "51000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol amarillo"
+			},{
+			"id"					: "156",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "51000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol verde"
+			},{
+			"id"					: "157",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "51000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol vino"
+			},{
+			"id"					: "158",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "51000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Trebol azul"
+			},{
+			"id"					: "159",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "51000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico amarillo"
+			},{
+			"id"					: "160",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "51000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico verde"
+			},{
+			"id"					: "161",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "51000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico vino"
+			},{
+			"id"					: "162",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "51000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Ártico azul"
+			},{
+			"id"					: "163",
+			"tipo_linea"			: "L-25",
+			"color_aluminio"		: "Blanco",
+			"tipo_vidrio"			: "Catedral color",
+			"espesor"				: "4mm",
+			"valor_metro_cuadrado"  : "51000",
+			"valor_minimo"			: "40000",
+			"dibujo"				: "Semilla bronce"
+		}
+	]
+}
+			
