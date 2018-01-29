@@ -113,11 +113,22 @@ class Venta{
 				}
 			}
 
-			return array(
-				'status' => 'success', 
-				'inserts' => $insertados,
-				'total' => $count($data)
-			);				
+			//Revisamos si se insertaron correctamente todos los detalles venta
+			if($insertados != count($data)){
+				return array(
+					'status' 	=> 'error', 
+					'inserts' 	=> $insertados,
+					'total' 	=> count($data)
+				);
+			}else{
+				return array(
+					'status' 	=> 'success', 
+					'inserts' 	=> $insertados,
+					'total' 	=> count($data)
+				);
+			}
+
+							
 		}else{
 			return array('status' => 'error', 'message' => 'Error al insertar la venta');
 		}
