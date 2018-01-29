@@ -9,6 +9,7 @@ $config['db']['host']   = "localhost";
 $config['db']['user']   = "root";		//vidrier3_pretzel
 $config['db']['pass']   = "";			//sagiribestwaifu
 $config['db']['dbname'] = "calculadora";//vidrier3_calculadora
+$config['secret'] = "Khao863faS7FSC21wq6LPca45s3";
 
 //Instancia de Slim
 $app = new Slim\App(["settings" => $config]);
@@ -36,11 +37,15 @@ $container['db'] = function ($c) {
     return $pdo;
 };
 
+$container['secret'] = function($c){
+	return $c['settings']['secret'];
+};
+
 	require 'routes.php';
 	require 'controllers.php';
 	require 'models.php';
 	require 'container.php';
-// require 'middlewares.php';
+	// require 'middlewares.php';
 
 $app->get('/test', function ($request, $response, $args){
 	$json = array('random' => rand(0, 1000));
