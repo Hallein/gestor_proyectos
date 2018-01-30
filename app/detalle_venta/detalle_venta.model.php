@@ -16,13 +16,15 @@ class DetalleVenta{
 						P.PDESCRIPCION,
 						P.PPRECIOM2,
 						P.PESPESOR,
+						P.PTIPO,
 						V.VID,						
 						V.CANTIDAD,
 						V.SUBTOTAL,
 						V.PULIDO,
 						V.CORTE_ESPECIAL,
-						V.INSTALACION
-				FROM 	DETALLE_VENTA V, PRODUCTO P
+						V.INSTALACION,
+						V.DETALLE
+				FROM 	detalle_venta V, producto P
 				WHERE 	V.PID = P.PID
 				AND		V.VID = :vid
 		');
@@ -43,11 +45,12 @@ class DetalleVenta{
 		$pulido 		= intval(filter_var($data['polished'], FILTER_SANITIZE_STRING));
 		$corte_especial = intval(filter_var($data['slice'], FILTER_SANITIZE_STRING));
 		$instalacion 	= intval(filter_var($data['instalation'], FILTER_SANITIZE_STRING));
+		$detalle 		= filter_var($data['detail'], FILTER_SANITIZE_STRING);
 
 		$datos = array();
 		$query = $this->db->prepare(' 	
-			INSERT INTO DETALLE_VENTA ( VID, PID, CANTIDAD, SUBTOTAL, PULIDO, CORTE_ESPECIAL, INSTALACION )
-			VALUES 	( :vid, :pid, :cantidad, :subtotal, :pulido, :corte_especial, :instalacion ) 
+			INSERT INTO detalle_venta ( VID, PID, CANTIDAD, SUBTOTAL, PULIDO, CORTE_ESPECIAL, INSTALACION, DETALLE )
+			VALUES 	( :vid, :pid, :cantidad, :subtotal, :pulido, :corte_especial, :instalacion, :detalle ) 
 		');
 		
 		$query -> bindParam(':vid', 			$vid);
@@ -57,6 +60,7 @@ class DetalleVenta{
 		$query -> bindParam(':pulido', 			$pulido);
 		$query -> bindParam(':corte_especial', 	$corte_especial);
 		$query -> bindParam(':instalacion', 	$instalacion);
+		$query -> bindParam(':detalle', 		$detalle);
 
 		if($query -> execute()){			
 			return array('status' => 'success');					

@@ -16,7 +16,7 @@ class Venta{
 				SELECT 	V.VID,
 						V.VTOTAL,
 						V.VFECHA
-				FROM 	VENTA V
+				FROM 	venta V
 		');
 
 		if($query->execute()){
@@ -52,7 +52,7 @@ class Venta{
 				SELECT 	V.VID,
 						V.VTOTAL,
 						V.VFECHA
-				FROM 	VENTA V
+				FROM 	venta V
 				WHERE 	V.VID = :vid
 		');
 
@@ -94,8 +94,8 @@ class Venta{
 
 		//Creamos la venta
 		$query = $this->db->prepare(' 	
-			INSERT INTO VENTA ( VTOTAL, VFECHA )
-			VALUES 	( :total, sysdate() ) 
+			INSERT INTO venta ( UID, VTOTAL, VFECHA )
+			VALUES 	( 1, :total, sysdate() ) 
 		');
 		
 		$query -> bindParam(':total', $total);

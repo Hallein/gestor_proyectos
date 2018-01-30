@@ -15,8 +15,14 @@ class Aluminio{
 						P.PNOMBRE 		as nombre,
 						P.PDESCRIPCION 	as descripcion,
 						P.PPRECIOM2 	as valor_metro_cuadrado,
-						P.PESPESOR 		as espesor
-				FROM 	PRODUCTO P, ALUMINIO A
+						P.PESPESOR 		as espesor,
+						P.PTIPO 		as tipo,
+						A.ATIPO_LINEA 	as tipo_linea,
+						A.ACOLOR 		as color,
+						A.ATIPO_VIDRIO 	as tipo_vidrio,
+						A.AVALOR_MINIMO as valor_minimo,
+						A.ADIBUJO 		as dibujo
+				FROM 	producto P, aluminio A
 				WHERE 	P.PID = A.PID
 				ORDER BY 	P.PNOMBRE ASC
 		');
@@ -35,8 +41,14 @@ class Aluminio{
 						P.PNOMBRE 		as nombre,
 						P.PDESCRIPCION 	as descripcion,
 						P.PPRECIOM2 	as valor_metro_cuadrado,
-						P.PESPESOR 		as espesor
-				FROM 	PRODUCTO P, ALUMINIO A
+						P.PESPESOR 		as espesor,
+						P.PTIPO 		as tipo,
+						A.ATIPO_LINEA 	as tipo_linea,
+						A.ACOLOR 		as color,
+						A.ATIPO_VIDRIO 	as tipo_vidrio,
+						A.AVALOR_MINIMO as valor_minimo,
+						A.ADIBUJO 		as dibujo
+				FROM 	producto P, aluminio A
 				WHERE 	P.PID = A.PID
 				AND 	P.PID = :id
 				ORDER BY 	P.PNOMBRE ASC
@@ -52,10 +64,15 @@ class Aluminio{
 	}
 
 	public function store($data){
+		$nombre 				= filter_var($data['nombre'], FILTER_SANITIZE_STRING);
+		$descripcion 			= filter_var($data['descripcion'], FILTER_SANITIZE_STRING);
+		$valor_metro_cuadrado 	= intval(filter_var($data['valor_metro_cuadrado'], FILTER_SANITIZE_STRING));
+		$espesor 				= intval(filter_var($data['espesor'], FILTER_SANITIZE_STRING));
+
 		$datos = array();
 		$query = $this->db->prepare(' 	
-			INSERT INTO PRODUCTO ( PNOMBRE, PDESCRIPCION, PPRECIOM2, PESPESOR )
-			VALUES 	( :nombre, :descripcion, :valor_metro_cuadrado, :espesor ) 
+			INSERT INTO producto ( PNOMBRE, PDESCRIPCION, PPRECIOM2, PESPESOR, PTIPO )
+			VALUES 	( :nombre, :descripcion, :valor_metro_cuadrado, :espesor, 2 ) 
 		');
 		
 		$query -> bindParam(':nombre', 					$data['nombre']);
@@ -72,13 +89,24 @@ class Aluminio{
 		}
 	}
 
-	private function storeAluminio($id, $data){
+	private function storeAluminio($id, $data){		
+		$tipo_linea 	= filter_var($data['tipo_linea'], FILTER_SANITIZE_STRING);
+		$color 			= filter_var($data['color_aluminio'], FILTER_SANITIZE_STRING);
+		$tipo_vidrio 	= filter_var($data['tipo_vidrio'], FILTER_SANITIZE_STRING);
+		$valor_minimo 	= intval(filter_var($data['valor_minimo'], FILTER_SANITIZE_STRING));
+		$dibujo 		= filter_var($data['dibujo'], FILTER_SANITIZE_STRING);
+
 		$query = $this->db->prepare(' 	
-			INSERT INTO Aluminio ( PID )
-			VALUES 	( :id ) 
+			INSERT INTO aluminio ( PID, ATIPO_LINEA, ACOLOR, ATIPO_VIDRIO, AVALOR_MINIMO, ADIBUJO )
+			VALUES 	( :id, :tipo_linea, :color, :tipo_vidrio, :valor_minimo, :dibujo ) 
 		');
 		
-		$query -> bindParam(':id', $id);
+		$query -> bindParam(':id', 				$id);
+		$query -> bindParam(':tipo_linea', 		$tipo_linea);
+		$query -> bindParam(':color', 			$color);
+		$query -> bindParam(':tipo_vidrio', 	$tipo_vidrio);
+		$query -> bindParam(':valor_minimo', 	$valor_minimo);
+		$query -> bindParam(':dibujo', 			$dibujo);
 
 		if($query -> execute()){
 			return array(
@@ -92,7 +120,7 @@ class Aluminio{
 
 	public function update($id, $data){
 		$datos = array();
-		$query = $this->db->prepare('	UPDATE 	PRODUCTO 
+		$query = $this->db->prepare('	UPDATE 	producto 
 										SET 	PNOMBRE 		= :nombre,
 												PDESCRIPCION 	= :descripcion,
 												PPRECIOM2 		= :valor_metro_cuadrado,
@@ -115,7 +143,7 @@ class Aluminio{
 	//TODO cambiar campos a actualizar
 	private function updateAluminio($id, $data){
 		$datos = array();
-		$query = $this->db->prepare('	UPDATE 	ALUMINIO 
+		$query = $this->db->prepare('	UPDATE 	aluminio 
 										SET 	CDIBUJO = :dibujo,
 												CTIPO 	= :tipo_cristal,
 										WHERE 	PID 	= :id');
@@ -135,7 +163,7 @@ class Aluminio{
 	}
 
 	private function delete($id){
-		$query = $this->db->prepare('	DELETE FROM PRODUCTO
+		$query = $this->db->prepare('	DELETE FROM producto
 										WHERE PID = :id ');
 		
 		$query -> bindParam(':id', 	$id);
@@ -148,7 +176,7 @@ class Aluminio{
 	}
 
 	public function deleteCristal($id){
-		$query = $this->db->prepare('	DELETE FROM ALUMINIO
+		$query = $this->db->prepare('	DELETE FROM aluminio
 										WHERE PID = :id ');
 		
 		$query -> bindParam(':id', 	$id);

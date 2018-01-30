@@ -30,16 +30,18 @@ $app->group('/aluminio', function () {
 	$this->post('/update/{id}', function ($request, $response, $args) {
 		$id = filter_var($args['id'], FILTER_SANITIZE_STRING);
 		$data = $request->getParsedBody();
-		$json = $this->aluminio->update($id, $data);
-		$response->write(json_encode($json));	
+		//$json = $this->aluminio->update($id, $data);
+		//$response->write(json_encode($json));	
+		$response->write(json_encode($data));	//Descomentar para usar
 		return $response;
 	});
 
 	/* Ruta que elimina un aluminio según su id */
 	$this->post('/delete/{id}', function ($request, $response, $args) {
 		$id = filter_var($args['id'], FILTER_SANITIZE_STRING);
-		$json = $this->aluminio->delete($id);
-		$response->write(json_encode($json));	
+		//$json = $this->aluminio->delete($id);
+		//$response->write(json_encode($json));	
+		$response->write(json_encode(array('id' => $id)));	//Descomentar para usar
 		return $response;
 	});
 });

@@ -16,9 +16,10 @@ class Cristal{
 						P.PDESCRIPCION 	as descripcion,
 						P.PPRECIOM2 	as valor_metro_cuadrado,
 						P.PESPESOR 		as espesor,
+						P.PTIPO 		as tipo,
 						C.CDIBUJO 		as dibujo,
 						C.CTIPO 		as tipo_cristal
-				FROM 	PRODUCTO P, CRISTAL C
+				FROM 	producto P, cristal C
 				WHERE 	P.PID = C.PID
 				ORDER BY 	P.PNOMBRE ASC
 		');
@@ -38,9 +39,10 @@ class Cristal{
 						P.PDESCRIPCION 	as descripcion,
 						P.PPRECIOM2 	as valor_metro_cuadrado,
 						P.PESPESOR 		as espesor,
+						P.PTIPO 		as tipo,
 						C.CDIBUJO 		as dibujo,
 						C.CTIPO 		as tipo_cristal
-				FROM 	PRODUCTO P, CRISTAL C
+				FROM 	producto P, cristal C
 				WHERE 	P.PID = C.PID
 				AND 	P.PID = :id
 				ORDER BY 	P.PNOMBRE ASC
@@ -63,8 +65,8 @@ class Cristal{
 
 		$datos = array();
 		$query = $this->db->prepare(' 	
-			INSERT INTO PRODUCTO ( PNOMBRE, PDESCRIPCION, PPRECIOM2, PESPESOR )
-			VALUES 	( :nombre, :descripcion, :valor_metro_cuadrado, :espesor ) 
+			INSERT INTO producto ( PNOMBRE, PDESCRIPCION, PPRECIOM2, PESPESOR, PTIPO )
+			VALUES 	( :nombre, :descripcion, :valor_metro_cuadrado, :espesor, 1 ) 
 		');
 		
 		$query -> bindParam(':nombre', 					$nombre);
@@ -86,7 +88,7 @@ class Cristal{
 		$tipo_cristal	= filter_var($data['tipo_cristal'], FILTER_SANITIZE_STRING);
 
 		$query = $this->db->prepare(' 	
-			INSERT INTO CRISTAL ( PID, CDIBUJO, CTIPO )
+			INSERT INTO cristal ( PID, CDIBUJO, CTIPO )
 			VALUES 	( :id, :dibujo, :tipo_cristal ) 
 		');
 		
@@ -111,7 +113,7 @@ class Cristal{
 		$espesor 				= intval(filter_var($data['espesor'], FILTER_SANITIZE_STRING));
 
 		$datos = array();
-		$query = $this->db->prepare('	UPDATE 	PRODUCTO 
+		$query = $this->db->prepare('	UPDATE 	producto 
 										SET 	PNOMBRE 		= :nombre,
 												PDESCRIPCION 	= :descripcion,
 												PPRECIOM2 		= :valor_metro_cuadrado,
@@ -136,7 +138,7 @@ class Cristal{
 		$tipo_cristal	= filter_var($data['tipo_cristal'], FILTER_SANITIZE_STRING);
 
 		$datos = array();
-		$query = $this->db->prepare('	UPDATE 	CRISTAL 
+		$query = $this->db->prepare('	UPDATE 	cristal 
 										SET 	CDIBUJO = :dibujo,
 												CTIPO 	= :tipo_cristal,
 										WHERE 	PID 	= :id');
@@ -156,7 +158,7 @@ class Cristal{
 	}
 
 	private function delete($id){
-		$query = $this->db->prepare('	DELETE FROM PRODUCTO
+		$query = $this->db->prepare('	DELETE FROM producto
 										WHERE PID = :id ');
 		
 		$query -> bindParam(':id', 	$id);
@@ -169,7 +171,7 @@ class Cristal{
 	}
 
 	public function deleteCristal($id){
-		$query = $this->db->prepare('	DELETE FROM CRISTAL
+		$query = $this->db->prepare('	DELETE FROM cristal
 										WHERE PID = :id ');
 		
 		$query -> bindParam(':id', 	$id);

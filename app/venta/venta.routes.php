@@ -21,7 +21,7 @@ $app->group('/venta', function () {
 	/* Ruta que crea un nuevo venta */
 	$this->post('', function ($request, $response, $args) {
 		$data = $request->getParsedBody(); //Array detalle venta		
-		$json = $this->venta->store($data);					
+		$json = $this->venta->store($data['data']);					
 		$response->write(json_encode($json));				
 		return $response;									
 	});														
