@@ -36,6 +36,28 @@ class Login{
 			);
 	}
 
+	public function doLogout($headers){
+		$token = explode(" ", $headers['HTTP_AUTHORIZATION'][0]);
+
+        $decoded = JWT::decode($token[1], $this->secret, array('HS256')); //$decoded es un objeto, no un array asociativo
+
+        //Update token
+        $query = $this->db->prepare('	UPDATE usuario SET TOKEN = null
+										WHERE UID = :uid');
+
+		$query->bindParam(':uid', $decoded->uid, PDO::PARAM_STR);
+
+        if( $query->execute() )
+			return array(
+				"status" => "success"
+			);
+		else
+			return array(
+				'status' => 'error',
+				'message' => 'ocurrió un error al cerrar sesión'
+			);
+	}
+
 	private function verificarPassword($password, $user){
 		if(password_verify($password, $user['PASSWORD'])){
 

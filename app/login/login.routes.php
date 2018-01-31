@@ -10,11 +10,10 @@
 
 	/* Ruta que devuelve un login según su id */
 	$app->get('/logout', function ($request, $response, $args) {
-
-		//$id = filter_var($args['id'], FILTER_SANITIZE_STRING);
-		//$json = $this->login->getOne($id);
-		//$response->write(json_encode($json));	
-		return $response;
+		$headers = $request->getHeaders();
+		$json = $this->login->doLogout($headers);
+		$response->write(json_encode($json));	
+		return $request;
 	});
 
 //POST $data = $request->getParsedBody();

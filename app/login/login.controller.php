@@ -21,4 +21,8 @@ class LoginController{
 		return $this->login->doLogin($username, $password);
 	}
 
+	public function doLogout($headers){		
+		return $this->login->doLogout($headers);
+	}
+
 }
