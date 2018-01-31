@@ -17,3 +17,7 @@ $container['venta'] = function ($c) {
 $container['detalle_venta'] = function ($c) {
     return new DetalleVentaController($c->db);
 };
+
+$container['login'] = function ($c) {
+    return new LoginController($c->db);
+};

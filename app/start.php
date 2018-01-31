@@ -1,7 +1,8 @@
 <?php
 define('FILES', '../public/files/');
 
-require '../../vendor/autoload.php';	// sistema/public/api
+// require '../../vendor/autoload.php';	// sistema/public/api
+require __DIR__ .'/../vendor/autoload.php';
 
 $config['displayErrorDetails'] = true;
 
@@ -9,7 +10,7 @@ $config['db']['host']   = "localhost";
 $config['db']['user']   = "root";		//vidrier3_pretzel
 $config['db']['pass']   = "";			//sagiribestwaifu
 $config['db']['dbname'] = "calculadora";//vidrier3_calculadora
-$config['secret'] = "Khao863faS7FSC21wq6LPca45s3";
+$config['secret'] = "Khao863a0s98dhna90a45s3";
 
 //Instancia de Slim
 $app = new Slim\App(["settings" => $config]);
@@ -45,9 +46,9 @@ $container['secret'] = function($c){
 	require 'controllers.php';
 	require 'models.php';
 	require 'container.php';
-	// require 'middlewares.php';
+	require 'middlewares.php';
 
-$app->get('/test', function ($request, $response, $args){
+$app->get('/test2', function ($request, $response, $args){
 	$json = array('random' => rand(0, 1000));
 	$response->write(json_encode($json));
 	return $response;

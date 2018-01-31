@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     30-01-2018 10:58:04                          */
+/* Created on:     31-01-2018 11:52:21                          */
 /*==============================================================*/
 
 
@@ -77,7 +77,7 @@ create table USUARIO
 (
    UID                  int not null auto_increment,
    USERNAME             varchar(60),
-   PASSWORD             varchar(60),
+   PASSWORD             varchar(255),
    TOKEN                varchar(255),
    primary key (UID)
 );

@@ -11,17 +11,17 @@
 $mw = function ($request, $response, $next) {
         $headers = $request->getHeaders();
         $req = explode(" ", $headers['HTTP_AUTHORIZATION'][0]);
+        $token = '';
         if(isset($req[1])){
             $token = $req[1];
         }
-        $query = $this->db->prepare('   SELECT sigaptoken
-                                        FROM sigapuseradm WHERE sigaptoken = :token');
+        $query = $this->db->prepare('   SELECT TOKEN
+                                        FROM usuario WHERE TOKEN = :token');
+
         $query->bindParam(':token', $token, PDO::PARAM_STR);
         $query->execute();
 
-        $user = $query->fetch();
-
-        if($user){
+        if( $query->fetch() ){
             $response = $next($request, $response);
         }
         else{
@@ -37,12 +37,13 @@ $mw = function ($request, $response, $next) {
 
 //Middleware que intercepta todas las request y verifique el JWT (1ro en ejecutarse)
 $app->add(new \Slim\Middleware\JwtAuthentication([
-    "path" => ["/pacientes/", "/agenda", "/servicios", "/tratamientos"],
-    "secret" => $container["secret"],
+    "path" => ["/cristal", "/aluminio", "/venta"],
+    "secret" => 'Khao863a0s98dhna90a45s3',
     "secure" => false,
     "error" => function ($request, $response, $arguments) {
-        $data["status"] = "error";
-        $data["message"] = $arguments["message"];
+        $data["status"] = "token_error";
+        $data["message"] = 'Acceso denegaddo';
+        //$data["message"] = $arguments["message"];
         return $response
             ->withHeader("Content-Type", "application/json")
             ->write(json_encode($data, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT));
